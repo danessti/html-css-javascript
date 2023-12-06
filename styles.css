@@ -1,21 +1,35 @@
-body{
-    font-family: 'Courier New', Courier, monospace;
+.header{
+    width: 100%;
+    float: left;
+    height: 70px;
+    background-color: red;
 }
 
-h1{
-    text-align: left;
-    font-size: 20px;
+.sidebar{
+    width: 25%;
+    float: left;
+    height: 700px;
+    background-color: sandybrown;
 }
 
-p{
-    text-align: justify;
-    font-size: 30px;
+.content{
+    width: 75%;
+    float: left;
+    background-color: turquoise;
+    height: 700px;
 }
 
-a{
-    text-decoration: none
+.footer{
+    width: 100%;
+    float: left;
+    height: 40px;
+    background-color: brown;
 }
 
-a:hover{
-    color: darkblue;
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: darkgray;
+    margin: 10px;
+    float: left;
 }
